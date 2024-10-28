@@ -93,6 +93,9 @@ if result and "GET_TEXT" in result:
     
     # Opcional: mostrar texto traducido
     display_output_text = st.checkbox("Mostrar el texto traducido")
+
+    if not os.path.exists("temp"):
+    os.makedirs("temp")
     
     # Conversión y salida de audio
     if st.button("🔊 Convertir"):
