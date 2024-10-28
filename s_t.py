@@ -15,7 +15,7 @@ st.markdown("<h1 style='color: #4CAF50;'>🗣️ Traductor de Voz</h1>", unsafe_
 st.subheader("Escucha y traduce lo que deseas decir en diferentes idiomas.")
 
 # Imagen principal y descripción lateral
-image = Image.open('OIG7.jpg')
+image = Image.open('mundo.jfif')
 st.image(image, width=300)
 with st.sidebar:
     st.markdown("<h2 style='color: #FF5733;'>🎙️ Configuración del Traductor</h2>", unsafe_allow_html=True)
